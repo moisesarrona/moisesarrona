@@ -1,15 +1,13 @@
 ```java
 package com.moisesarrona.me;
 
-import com.moisesarrona.skill.*;
-
 import java.util.LinkedHashMap;
 
 /*
  * @author moisesarrona
  * @description About me!
  */
-public class About extends Me implements IAbout {
+public class About extends Me implements Skill {
 
     @Override
     public LinkedHashMap<Object, String> getAllSkills() {
@@ -21,7 +19,6 @@ public class About extends Me implements IAbout {
         mySkills.put(CSharp.class.getName(), "50%");
         mySkills.put(Angular.class.getName(), "85%");
         mySkills.put(React.class.getName(), "50%");
-        mySkills.put(CssScss.class.getName(), "95%");
         mySkills.put(Sql.class.getName(), "90%");
         mySkills.put(Git.class.getName(), "85%");
         mySkills.put(Python.class.getName(), "20%");
