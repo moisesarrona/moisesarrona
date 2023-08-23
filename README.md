@@ -12,6 +12,7 @@ return projects.stream().filter(p -> p.getType().equals("portfolio"))
 ```
 - **[Arron Edi](https://github.com/moisesarrona/arron-edi)** - A package written in `Java` to read and convert EDIx12 to `Json` files etc.
 - **[BrisApp](https://github.com/moisesarrona/brisapp)** - An application written in `PHP` and `Laravel` to manage customers, employees and schedule event.
+# Pending
 - **[Privacy Arron]()** - An application written in `Java` to manage credentials with encryption.
 - **[App Minitask](https://github.com/moisesarrona/app-minitask)** - An application written in `Angular` and `SpringBoot` to manage tasks in `frontend`.
 - **[Api Minitask](https://github.com/moisesarrona/api-minitask)** - An application written in `Java` to manage tasks in `backend`.
